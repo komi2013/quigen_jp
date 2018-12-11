@@ -1,0 +1,12 @@
+2016/08/07 15:51:16 [crit] 16101#0: *434236 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 149.202.170.4, server: 0.0.0.0:443
+2017/07/20 10:36:09 [crit] 15181#0: *7635075 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 149.202.181.39, server: 0.0.0.0:443
+2017/11/06 04:11:02 [crit] 15180#0: *9836034 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 162.243.37.203, server: 0.0.0.0:443
+2017/11/09 14:00:49 [crit] 15179#0: *9894704 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 172.104.130.110, server: 0.0.0.0:443
+2018/01/01 08:03:48 [crit] 15181#0: *10711034 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 172.104.153.71, server: 0.0.0.0:443
+2018/04/06 08:22:47 [crit] 15180#0: *12228860 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 139.162.180.112, server: 0.0.0.0:443
+2018/05/21 16:16:24 [crit] 15180#0: *13223335 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 139.162.180.112, server: 0.0.0.0:443
+2018/07/20 09:18:12 [crit] 15180#0: *14497816 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 172.104.151.72, server: 0.0.0.0:443
+2018/10/14 19:57:21 [crit] 15179#0: *16560258 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 139.162.207.173, server: 0.0.0.0:443
+2018/10/31 00:28:35 [crit] 15180#0: *16831586 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 217.182.143.97, server: 0.0.0.0:443
+2018/11/08 06:24:25 [crit] 15181#0: *16960951 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 172.104.132.213, server: 0.0.0.0:443
+2018/12/06 22:50:59 [crit] 15179#0: *17455612 SSL_do_handshake() failed (SSL: error:14094085:SSL routines:SSL3_READ_BYTES:ccs received early) while SSL handshaking, client: 139.162.237.43, server: 0.0.0.0:443

@@ -1,0 +1,80 @@
+#order deny,allow
+#deny from all
+#allow from 122.212.156.194     #gateway.acrodea.co.jp
+#allow from 153.129.161.59     #home
+##allow from .mikeneko.ne.jp   
+#allow from localhost
+AddType text/cache-manifest .appcache
+#SetEnvIf User-Agent "WOW64" ng_ua
+SetEnvIf User-Agent "www.tkl.iis.u-tokyo.ac.jp" ng_ua
+SetEnvIf User-Agent "360Spider" ng_ua
+SetEnvIf User-Agent "MJ12bot" ng_ua
+SetEnvIf User-Agent "AhrefsBot" ng_ua
+SetEnvIf User-Agent "BLEXBot" ng_ua
+SetEnvIf User-Agent "Yandex" ng_ua
+SetEnvIf User-Agent "baiduspider" ng_ua
+SetEnvIf User-Agent "SemrushBot" ng_ua
+
+order allow,deny
+allow from all
+deny from 14.9.241.0
+deny from 221.93.18.7
+deny from 128.90.91.74
+deny from 104.194.26.204
+deny from 223.132.113.25
+deny from 74.91.23.26
+deny from 195.154.183.187
+deny from 5.153.238.103
+deny from 81.7.166.250
+deny from 46.119.118.213
+deny from 185.93.187.49
+deny from 125.198.95.182
+deny from 37.157.7.234
+#20160216
+deny from 124.228.91.99 
+deny from 94.23.12.207
+deny from 192.254.204.106
+deny from 68.233.233.130
+deny from 199.7.108.48
+deny from 219.94.162.100
+deny from 191.252.44.242
+#20160222
+deny from 64.71.32.30
+deny from 91.189.41.165
+deny from 184.168.200.137
+deny from 184.168.152.75
+deny from 197.221.10.35
+deny from 62.210.162.209
+#20160229
+deny from 203.236.50.22
+deny from 195.154.252.118
+deny from 183.13.79.189
+deny from 134.249.53.96
+deny from 160.177.56.143
+deny from 105.156.55.187
+#20160307
+deny from 171.118.252.240
+deny from 195.154.252.118
+deny from 37.203.214.2
+deny from 173.208.136.170
+deny from 195.154.253.137
+#20160314
+deny from 36.250.176.74
+deny from 58.22.70.103
+deny from 161.58.148.113
+deny from 184.172.172.26
+deny from 91.203.111.44
+deny from 66.147.244.242
+deny from 91.208.99.2
+deny from 45.79.78.93
+deny from 210.172.183.63
+deny from 195.3.105.55
+deny from 208.113.197.86
+deny from 162.223.14.234
+#20160322
+deny from 86.58.139.2
+deny from 197.158.78.129
+deny from 173.247.228.10
+deny from 219.164.77.57
+
+deny from env=ng_ua

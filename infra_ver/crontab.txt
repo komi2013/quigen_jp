@@ -1,0 +1,9 @@
+0 7 * * * wget --spider http://juken.quigen.info/admincheck/
+0 3 10 * * wget --spider http://juken.quigen.info/admintopcreate/
+
+10 7 * * * wget --spider http://shikaku.quigen.info/admincheck/
+0 2 10 * * wget --spider http://shikaku.quigen.info/admintopcreate/
+
+5 7 * * * wget --spider http://english.quigen.info/admincheck/
+0 4 10 * * wget --spider http://english.quigen.info/admintopcreate/
+#0 4 * * * echo -n > /stg/generator/fuel/app/classes/monitor/vmstat.log

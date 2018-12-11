@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /follow*
+Disallow: /htm/ad/*

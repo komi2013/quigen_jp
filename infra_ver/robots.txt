@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: http://juken.quigen.info/sitemap/index.xml
+Disallow: /quiz/?crypt_q*
+Disallow: /follow*
+Disallow: /htm/ad/*
